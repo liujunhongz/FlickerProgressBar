@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     FlikerProgressBar flikerProgressBar;
     FlikerProgressBar roundProgressbar;
+    FlikerProgressBar tmpProgressBar;
 
     Thread downLoadThread;
 
@@ -35,9 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         flikerProgressBar = (FlikerProgressBar) findViewById(R.id.flikerbar);
         roundProgressbar = (FlikerProgressBar) findViewById(R.id.round_flikerbar);
-
         flikerProgressBar.setOnClickListener(this);
         roundProgressbar.setOnClickListener(this);
+
+        tmpProgressBar = findViewById(R.id.tmp_flikerbar);
+        tmpProgressBar.setProgress(50);
 
         downLoad();
     }

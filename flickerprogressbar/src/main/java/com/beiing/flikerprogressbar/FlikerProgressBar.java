@@ -216,9 +216,9 @@ public class FlikerProgressBar extends View implements Runnable{
         pgCanvas.restore();
 
         if(!isStop){
-            pgPaint.setXfermode(xfermode);
-            pgCanvas.drawBitmap(flikerBitmap, flickerLeft, 0, pgPaint);
-            pgPaint.setXfermode(null);
+//            pgPaint.setXfermode(xfermode);
+//            pgCanvas.drawBitmap(flikerBitmap, flickerLeft, 0, pgPaint);
+//            pgPaint.setXfermode(null);
         }
 
         //控制显示区域

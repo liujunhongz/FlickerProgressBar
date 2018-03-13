@@ -36,4 +36,17 @@
         app:radius="20dp"
         />
 
+
+
+    <com.beiing.flikerprogressbar.FlikerProgressBar
+        android:id="@+id/tmp_flikerbar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        app:textSize="12sp"
+        app:loadingColor="#40c4ff"
+        app:stopColor="#ff9800"
+        app:radius="20dp"
+        />
+
 </LinearLayout>
